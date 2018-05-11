@@ -1,7 +1,7 @@
-<h3>Arcade<h3>
-
+<h3>Arcade</h3>
+<p>
 Arcade is a gaming platform: a program that lets the user choose a game to play and keeps a register of player scores.
-
+</p>
 <p>
   The main feature of this project is to being able to change of game and/or graphic library anytime you want.
   Two games and three graphical libraries are already implemented.
@@ -9,27 +9,27 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
 </p>
 
 <h2>Graphical libraries implemented:</h2>
-<li>
-  <ul>Ncurses.</ul>
-  <ul>Allegro.</ul>
-  <ul>SDL2.</ul>
- </li>
+<ul style="list-style-type:none">
+  <li>Ncurses.</li>
+  <li>Allegro.</li>
+  <li>SDL2.</li>
+ </ul>
 
 <h2>Game libraries implemented:</h2>
-<li>
-  <ul>Pacman (not working completly)</ul>
-  <ul>Nibbler</ul>
-  <ul>SolarFox</ul>
- </li>
+<ul style="list-style-type:none">
+  <li>Pacman (not working completly)</li>
+  <li>Nibbler</li>
+  <li>SolarFox</li>
+ </ul>
 
 <h3>Program compilation:</h3>
 <p>
-  <li>
-    <ul>$ make -> Will commpile the entire project.</ul>
-  <ul>$ make core -> Only compile the core of the program.</ul>
-  <ul>$ make games -> Wil only compile the game libraries.</ul>
-  <ul>$ make graphicals -> Will only compile the graphical libraries.</ul>
-    </li>
+  <ul style="list-style-type:none">
+    <li>$ make -> Will commpile the entire project.</li>
+  <li>$ make core -> Only compile the core of the program.</li>
+  <li>$ make games -> Wil only compile the game libraries.</li>
+  <li>$ make graphicals -> Will only compile the graphical libraries.</li>
+    </ul>
   #All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder.
 
   #All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder.
@@ -55,44 +55,44 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
   As i've said before, while you are playing, you can switch of game and graphical library whenever you want.
   To do so some keys are binded:
 </p>
-<li>
-  <ul>Switch between graphicals libraries:</ul>
-  <li>
-    <ul> 'E': Previous graphical library.</ul>
-    <ul> 'Z': Next graphical library.</ul>
-  </li>
-  <ul>Leaving the game and the program:</ul>
-  <li>
-    <ul> Press 'ESCAPE' (while in game): Return to the Selection Menu.</ul>
-    <ul> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</ul>
-  </li>
+<ul style="list-style-type:none">
+  <li>Switch between graphicals libraries:</li>
+  <ul style="list-style-type:none">
+    <li> 'E': Previous graphical library.</li>
+    <li> 'Z': Next graphical library.</li>
+  </ul>
+  <li>Leaving the game and the program:</li>
+  <ul style="list-style-type:none">
+    <il> Press 'ESCAPE' (while in game): Return to the Selection Menu.</li>
+    <il> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</li>
+  </ul>
 </li>
 
 <h3>Game command</h3>
-<li>
-  <ul>Arrow key: Move your character.</ul>
-  <ul>'S': Restart your game.</ul>
-  <ul>'SPACE': To pause the game.</ul>
-  <ul>Switching game:</ul>
-  <li>
-  <ul>'A': Go to the previous game.</ul>
-  <ul>'Z': Go to the next game.</ul>  
-  </li>
-</li>
+<ul style="list-style-type:none">
+  <li>Arrow key: Move your character.</li>
+  <li>'S': Restart your game.</li>
+  <li>'SPACE': To pause the game.</li>
+  <li>Switching game:</li>
+  <ul style="list-style-type:none">
+  <li>'A': Go to the previous game.</li>
+  <li>'Z': Go to the next game.</li>
+  </ul>
+</ul>
 
 <h3>Project realised by:</h3>
-<li>
-    <ul>Alexandre Sachs : alexandre.sachs@epitech.eu</ul>
-    <ul>Thomas Bleneau : thomas.bleneau@epitech.eu</ul>
-    <ul>Antoine Pelletant : antoine.pelletant@epitech.eu</ul>
-  </li>
+<ul style="list-style-type:none">
+    <li>Alexandre Sachs : alexandre.sachs@epitech.eu</li>
+    <li>Thomas Bleneau : thomas.bleneau@epitech.eu</li>
+    <il>Antoine Pelletant : antoine.pelletant@epitech.eu</li>
+  </ul>
 
 <p>
   One of the goal of the project was to be able to load libraries, whom had been coded by an other group of student.
   To do so we've worked with:
-  <li>
-    <ul>Kellian Cipierre : kellian.cipierre@epitech.eu</ul>
-    <ul>Martin Cotoni : martin.cotoni@epitech.eu</ul>
-    <ul>Thomas Lombard : thomas.lombard@epitech.eu</ul>
-  </li>
+  <ul style="list-style-type:none">
+    <li>Kellian Cipierre : kellian.cipierre@epitech.eu</li>
+    <li>Martin Cotoni : martin.cotoni@epitech.eu</li>
+    <li>Thomas Lombard : thomas.lombard@epitech.eu</li>
+  </ul>
 </p>
