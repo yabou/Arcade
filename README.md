@@ -86,7 +86,7 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
     <li>Thomas Bleneau : thomas.bleneau@epitech.eu</li>
     <il>Antoine Pelletant : antoine.pelletant@epitech.eu</li>
   </ul>
-
+  <br>
 <p>
   One of the goal of the project was to be able to load libraries, whom had been coded by an other group of student.
   To do so we've worked with:
