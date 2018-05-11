@@ -66,7 +66,7 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
     <il> Press 'ESCAPE' (while in game): Return to the Selection Menu.</li>
     <il> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</li>
   </ul>
-</li>
+</ul>
 
 <h3>Game command</h3>
 <ul style="list-style-type:none">
