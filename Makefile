@@ -7,10 +7,21 @@
 
 MAKE	= make
 
-all:	sdl allegro ncurses nibbler pacman solarfox core
+LIBDIR	= lib
+
+GAMEDIR	= games
+
+MKDIR	= mkdir -p
+
+RM	= rm -rf
+
+all:	createDir sdl allegro ncurses nibbler pacman solarfox core
 
 core:
 	$(MAKE) -C ./Sources/Arcade
+
+createDir: 	$(shell $(MKDIR) $(LIBDIR))
+		$(shell $(MKDIR) $(GAMEDIR))
 
 games: nibbler pacman solarfox
 
@@ -51,6 +62,7 @@ fclean:	clean
 	$(MAKE) fclean -C ./Sources/Games/Nibbler
 	$(MAKE) fclean -C ./Sources/Games/Pacman
 	$(MAKE) fclean -C ./Sources/Games/SolarFox
+	$(RM) $(LIBDIR) $(GAMEDIR)
 
 re:	fclean all
 
